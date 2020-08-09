@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  padding-left: 410px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  list-style: none;
+  height: 30px;
+  background-color: #edeef0;
+}
+
+nav ul li {
+  margin-right: 24px;
+  display: inline;
+  padding: 2px;
+}
+
+nav ul li img {
+  height: 28px;
+  width: 28px;
+}
+
+.nav-link {
+  font-size: 1.8em;
+  font-weight: 700;
+  text-decoration: none;
+  line-height: 22px;
+  font-size: 14px;
+  letter-spacing: .05px;
+}
+
+#home {
+  background: yellow;
+  color: black;
+  height: 950px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 45px;
+  font-size: 3.5em;
+}
+
+.pics {
+  display: flex;
+}
+
+.pics img {
+  margin: 0 10px;
+  padding: 0 10px;
+  height: 500px;
+  width: 600px;
+}
+
+.pics-name img {
+  margin: 0 0px;
+  padding: 0 200px;
+}
+
+.link-button {
+  background-color: #FFF;
+  font-weight: 900;
+  font-size: 18px;
+  margin: 70px 850px;
+}
+
+.link-button {
+  border-radius: 50px;
+  padding: 13px 26px;
+}
+
+.list-company {
+  display: flex;
+  flex-direction: row;
+}
+
+.list-company ul {
+  list-style: none;
+  font-weight: 600;
+}
+
+.list-company ul li {
+  font-weight: 300;
+}
+
+.list-company ul li {
+  margin: 1px 10px;
+  padding: 10px 10px;
+}
+
+footer {
+  display: flex;
+  height: 50px;
+
+  background-color: black;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  color: #edeef0;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+footer li {
+  padding: 10px 10px;
+  margin: 10px 10px;
+}

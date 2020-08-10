@@ -77,23 +77,28 @@ nav ul li img {
   padding: 13px 26px;
 }
 
-.list-company {
+.header {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
 }
 
-.list-company ul {
+.header ul li {
   list-style: none;
+  margin: 0px 10px;
+  padding: 0px 10px;
+}
+
+.list-main {
+  display: flex;
+  font-size: 1.2em;
   font-weight: 600;
 }
 
-.list-company ul li {
-  font-weight: 300;
-}
-
-.list-company ul li {
-  margin: 1px 10px;
-  padding: 10px 10px;
+.header ul li ul li {
+  margin: 10px 0px;
+  padding: 0px 0px;
 }
 
 footer {
